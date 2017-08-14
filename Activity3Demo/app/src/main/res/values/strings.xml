@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activity3Demo</string>
+    <string name="btn_text">Its Text For Button</string>
+    <string name="anstring">Any Sring</string>
+</resources>
