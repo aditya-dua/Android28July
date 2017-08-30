@@ -1,0 +1,39 @@
+
+## Classes :
+D1) Constants : table name , columns Name & so on
+2) SQLiteOpenHelper : onCreate & onUpgrade
+3) DB Helper : methods which will get the values ,a dd the vlaue , dletee the value and son on
+D4) Model Class : Bean or POJO(Plain Old Java Object)
+        It contains variables and their getters & setetres
+5) to get the instance of DBHelper
+
+6) MainActitvoty & other activities
+
+Example of Upgrade DB
+
+You are making ecom
+
+List of products in Mobile (29/July) but the user goes online today
+so will need to update your db to him the new phones
+
+Singleton classes
+You will have this concept used when you are making the object of the class
+Object : we can make the object using the new keyword but what if I want that
+at instance of time there can be only 1 object in the memory...
+
+So in such scenreos what we will do is , we will create the object inside the
+class only and then this object will be initailed by other class by accessng the
+constructor
+
+ContentValues :::
+whenever you are inserting the values in DB
+
+INSERT INTO TABLE studnet (id,name,roll) values (1,'ABC',123);
+
+Map
+contentValues
+
+id : 1
+name : ABC
+roll : 123
+
