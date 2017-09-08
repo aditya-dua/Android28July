@@ -1,0 +1,30 @@
+Async Task is a class written in Java which works a different thread in Android application
+
+
+will Async work on the UI thread ?
+YES , then if it works on the UI thread then how is it different from UI thread ?
+
+
+Do you Asyn task work on UI thread ?
+
+If async task works on UI theard means its listening to UI
+then how is it different from the UI thread...
+
+
+YES & NO
+
+means Async task works as a differnt thread but it has methods which work on the UI thread
+
+Methods of Async TAsk :
+So now it will mean that asyn task will work as a separate thread but it will have
+methods which can update a UI
+
+In Asyn task we have 3 main methods :
+1) onPreExecute => this methods is called before the thread starts its execution
+   Example : you will load th eprogress bar ....
+
+2) doInBackground => this methods is basically the different thread
+    you wont have access to the UI elements in this method
+
+3) onPostExecute  => Here you will have the result of the fetch and use it
+

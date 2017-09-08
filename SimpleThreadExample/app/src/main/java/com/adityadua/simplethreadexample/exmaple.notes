@@ -1,0 +1,62 @@
+Android Application Development  : Threads
+
+What are Threads ?
+sub process
+
+
+Programe ?
+Process ? Programe under execution
+
+Multiprogramming ?
+How are multiprogramming different from multi process
+??
+
+Multi programing involved may tasks
+muti process will have seperate processor for each
+
+
+
+When there are multiple programs available in them main memory :: that is Multi Programming
+
+When more than more process are avail :: that multi processing
+
+When you have multiple CPU units that is multi tasking …..
+
+is it clear ?
+
+
+Thread : when we have more than 1 part of process which is working
+
+Why do we need a thread ?
+Can we do without threads ? How ?
+
+We use thread when we want more than 1 task to run at the same time
+
+Android : what can be the different tasks in case of Android :::
+the thread which always runs is the UI thread
+now there might be some instances in which
+
+to fetch or retrieve the data / : data from DB or data form server
+
+You will have an app which will load but in the mean time you will execute a thread which will get the data for you and
+a different thread which will run separately..
+Task this thread can do : fetch data from DB
+fetch a web service response and so on….
+
+JAVA
+
+we can 2 ways of making threads ,
+1. extending the Thread & 2. implementing the runnable interface
+
+In ANDROID :
+1. You make thread as per Java 2. YOU use ASYN task
+
+
+
+ASYNC TASK : the thread of android ....
+
+
+
+in Java: main thread
+
+in android the thread whihc executes is called the :: UI Thread...
