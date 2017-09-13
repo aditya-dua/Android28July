@@ -1,0 +1,24 @@
+Activity :
+is it only about UI
+
+Activity is a user screen that you see , it controls your UI and has some lifecycle methods
+
+Ex : Something as bluetooth which once switched ON it needs no UI App : Bluetooth File Transfer
+
+Ex : Whatsapp ….
+
+Is the problem statement clear….
+There should be something which should be
+
+How do we cater such problems :::
+
+Android component : Service  :
+
+A service is a kind of background task which runs without a UI….
+
+The service can be started by any Android component and the best part about service is it will continue to run even if the component that started has been closed/destroyed
+
+
+
+Types Of Service : Unbound & Bound
+
